@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">    <link rel="stylesheet" href="/index.css">
+    <title>Stud'Art Gallery</title>
+</head>
+<body>
+    <header class="hero slider position-relative vh-100">
+        <nav class="navbar navbar-expand-lg bg-transparent position-relative w-100">
+            <div class="container-fluid">
+              <img class="navbar-brand" src="#">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav w-75 justify-content-end">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  <a class="nav-link text-light" href="#">Gallery</a>
+                  <a class="nav-link text-light" href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="list position-absolute top-0 start-0 w-100 h-100">
+            <div class="item position-absolute w-100 h-100 active">
+                <img src="./asset/images/Dali/chien-style-dali.webp" class="w-100 h-100 object-fit-cover" alt="Artwork 1">
+                <div class="content position-absolute text-white p-4">
+                    <p class="text-uppercase tracking-widest">Design</p>
+                    <h2 class="display-1 mb-3">Œuvre 01</h2>
+                    <p>Découvrez notre première œuvre d'art unique et inspirante.</p>
+                </div>
+            </div>
+            <div class="item position-absolute w-100 h-100">
+                <img src="./asset/images/Monnet/crespuscule-en-robe-de-feu.png" class="w-100 h-100 object-fit-cover" alt="Artwork 2">
+                <div class="content position-absolute text-white p-4">
+                    <p class="text-uppercase tracking-widest">Design</p>
+                    <h2 class="display-1 mb-3">Œuvre 02</h2>
+                    <p>Une création qui repousse les limites de l'imagination artistique.</p>
+                </div>
+            </div>
+            <!-- Répéter pour les autres diapositives -->
+
+            <div class="arrows position-absolute translate-middle-y d-flex">
+              <button id="prev" class="btn btn-outline-light me-2"> < </button>
+              <button id="next" class="btn btn-outline-light"> > </button>
+          </div>
+
+          <div class="thumbnail position-absolute start-0 w-100 d-flex overflow-auto p-3 justify-content-center">
+            <div class="item active mx-2" >
+                <img src="asset/images/picasso/Picasceau.webp" class="w-100 h-100 object-fit-cover" alt="Thumbnail 1">
+                <div class="content text-center text-white mt-2">Œuvre 1</div>
+            </div>
+
+            <!-- Répéter pour les autres miniatures -->
+        </div>
+    </header>
+
+    <section id="home" >
+      
+        
+    </div>
+    </section>
+
+    <section id="about">
+
+    </section>
+
+
+    <section class="parallax">
+
+    </section>
+
+
+    <section id="gallery">
+
+    </section>
+
+    <section id="contact">
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" >
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Sujet</label>
+                <input type="text" class="form-control" id="subject" >
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" ></textarea>
+            </div>
+            <div id="formFeedback" class="mb-3"></div>
+                <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+        </form>
+    
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script></body>
+</html>
